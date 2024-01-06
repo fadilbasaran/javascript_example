@@ -13,9 +13,9 @@ let iN2=parseInt(sT);
 console.log(typeof iN);
 console.log(typeof iN2);
 
-let sF="3";
+let sF="3.45";
 
 let f=parseFloat(sF);
 console.log(typeof f);
-
+console.log(f);
 
