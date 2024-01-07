@@ -16,5 +16,5 @@ console.log(date);
 // date.setMinutes(33);// Dakika değişmektedir.
 // console.log(date);
 
- 
+
 
