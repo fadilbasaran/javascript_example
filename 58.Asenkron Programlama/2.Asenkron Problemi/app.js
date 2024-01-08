@@ -23,14 +23,15 @@ const users = [
 ]
 
 
-function getUserID() {
+function getUserID(callback) {
     setTimeout(() => {
-    return 4;
+        let userId =1
+        callback(userId);
     }, 1000);
 }
 function getPostByUserId(userId) {
     
-    console.log(userId);
+    
     setTimeout(() => {
 
         users.forEach((user) => {
@@ -43,5 +44,9 @@ function getPostByUserId(userId) {
     }, 500);
 }
 
-let userID= getUserID();
-getPostByUserId(userID);
+// getUserID((userID)=>{
+//     getPostByUserId(userID); //?1. yol
+// });
+
+getUserID(getPostByUserId);//?2. yol
+// getPostByUserId(userID);
