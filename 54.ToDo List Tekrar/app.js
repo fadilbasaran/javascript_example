@@ -22,17 +22,23 @@ function runEvent() {
 function filter(e) {
     const filterValue = e.target.value.toLowerCase().trim();
     const todoListesi = document.querySelectorAll(".list-group-item ");
-    console.log(todoListesi.length);
+    // console.log(todoListesi.length);
     if (todoListesi.length > 0) {
       
         todoListesi.forEach(function (todo) {
+            
             if (todo.textContent.toLowerCase().trim().includes(filterValue)) {
                 todo.setAttribute("style", "display : block");
-            } else {
+            }
+
+            else {
                 todo.setAttribute("style", "display : none !important");
             }
+
         });
-    } else {
+    }
+    
+    else {
         showAlert("warning", "Filtreleme yapmak için ekranda en az bir todo olmalıdır.")
     }
 }
