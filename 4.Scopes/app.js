@@ -39,7 +39,7 @@ function method() {
         console.log(sayi);
     }
     for (let i = 0; i < 20; i++) {
-        
+        // console.log(i)
     }
     
 }

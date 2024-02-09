@@ -22,14 +22,14 @@
 
 //Alert(Uyarı ile çıktı verme işlemleri)
 
-// console.log(window);
+console.log(window);
 
-// let a=3;
-// let b=6;
-// alert("a ile b nin toplamı : "+(a+b));
+let a=3;
+let b=6;
+alert("a ile b nin toplamı : "+(a+b));
 
-// console.log("Fadıl Başaran");
-// debugger;
-// console.log("Fadıl Başaran");
-// console.log("Fadıl Başaran");
-// console.log("Fadıl Başaran");
+console.log("Fadıl Başaran");
+//debugger;//debug modda çalışmak için kullanılır.
+console.log("Fadıl Başaran");
+console.log("Fadıl Başaran");
+console.log("Fadıl Başaran");

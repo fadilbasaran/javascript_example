@@ -40,4 +40,4 @@ console.log("Selamm");
 };
 
 console.log(typeof func);//Tipi function olarak belirlenir
-console.log(f );
+// console.log(f );
