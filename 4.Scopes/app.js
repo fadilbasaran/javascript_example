@@ -5,7 +5,7 @@
 
     ->Global Scope : Her yerden erişim imkanımız bulunmaktadır 
     ->Function Scope :  Sadece fonksiyon satıları arasında erişilebilir
-    ->Block Scope
+    ->Block Scope : 
 
  */
 // var degiskenİsmi= 10;
