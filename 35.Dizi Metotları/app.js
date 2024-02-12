@@ -4,7 +4,7 @@ let cars=["bwm","honda","ford","mercedes","opel"];
 // let cars2=["hundai","toyota"];
 console.log(cars);
 // PUSH METHOD
-// let arrayLen=cars.push("renault");
+// let arrayLen=cars.push("renault");//? renault adds at the end
 // console.log(arrayLen);//?Give us the length of the array
 // console.log(cars);
 
@@ -24,8 +24,8 @@ console.log(cars);
 
 //SPLICE METHOD
 
-// cars.splice(3,0,"hundai");//? Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
-// console.log(cars);
+cars.splice(3,0,"hundai");//? Removes elements from an array and, if necessary, inserts new elements in their place, returning the deleted elements.
+console.log(cars);
 
 // cars.splice(1,2);//Start with 1 delete 2 elements
 // console.log(cars);
@@ -65,9 +65,9 @@ console.log(cars);
 // console.log(splitedArray);
 
 //INDEXOFF METHOD
-let index=cars.indexOf("ford");
-console.log(index);//?Give us the index of ford car
+// let index=cars.indexOf("ford");
+// console.log(index);//?Give us the index of ford car
 
 //INCLUDES METHOD
-let carsIn=cars.includes("ford");
-console.log(carsIn?"eleman var ":"eleman yok");
+// let carsIn=cars.includes("ford");
+// console.log(carsIn?"eleman var ":"eleman yok");
